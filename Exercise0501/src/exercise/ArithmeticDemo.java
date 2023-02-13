@@ -28,7 +28,7 @@ public class ArithmeticDemo {
 		original_result = result;
 		
 		result = result % 7;
-		// result is now 3
+		// result is now 2 <- Đề sai
 		System.out.println(original_result + " % 7 = " + result);
 	}
 }
